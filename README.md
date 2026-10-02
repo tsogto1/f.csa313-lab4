@@ -133,3 +133,22 @@ results/mvn-test-mutant.txt
 ## 7. Үр дүн
 
 Энэ лабораторийн ажлаар JUnit 5 ашиглан `GradeCalculator` классын үндсэн үйлдлүүд, хязгаарын утгууд болон буруу оролтуудыг шалгасан. Parameterized test ашигласнаар ижил бүтэцтэй олон оролтыг давталт багатайгаар тестлэх боломжтой болсон. Мөн mutation testing хийж, 90 онооны boundary-г шалгасан тестүүд зориудын өөрчлөлтийг илрүүлж байгааг баталгаажуулсан.
+
+## 8. Хөгжүүлэлтийн орчин (Development Environment)
+
+* **Үйлдлийн систем:** Debian Linux (x86_64)
+* **Java:** OpenJDK 21
+* **Build Tool:** Apache Maven 3.9.9
+
+### Командын гаралт (System Output)
+
+tsogto@debian:~/Documents/gobi bagsh/lab4/lab04-junit$ mvn -version
+Apache Maven 3.9.9
+Maven home: /usr/share/maven
+Java version: 21.0.12.1, vendor: Debian, runtime: /usr/lib/jvm/java-21-openjdk-amd64
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "6.12.107+deb13-amd64", arch: "amd64", family: "unix"
+tsogto@debian:~/Documents/gobi bagsh/lab4/lab04-junit$ java -version
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)
